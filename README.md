@@ -19,6 +19,27 @@ This app leverages AWS services to ensure scalability, security, and efficient d
 - **Upload and Manage Media Files**: 
   - Users can upload and manage media files such as workout photos and videos.
 
+## Frontend Technologies
+
+- **JavaScript (ES6+)**: 
+  - The app is built using modern JavaScript (ES6+), ensuring better performance and maintainability. We use features like arrow functions, async/await for asynchronous programming, destructuring, and modules to structure the code.
+  
+- **React**: 
+  - React is used to build the user interface, making the app dynamic and responsive. We utilize React's component-based architecture to manage the app's UI and state effectively.
+  
+- **React Hooks**: 
+  - We leverage React Hooks like `useState`, `useEffect`, and custom hooks for managing component states and side effects.
+
+- **Axios**: 
+  - Axios is used for making HTTP requests to the backend (via AWS Lambda) for logging workouts, fetching progress, and interacting with other services.
+
+- **State Management**:
+  - The app uses React's `useState` for managing local component state and `useContext` for managing global state across the application.
+
+- **Form Validation**:
+  - We use libraries like `Formik` and `Yup` to handle form validation, ensuring that user input is correct before submitting.
+
+
 ## AWS Services to Use
 
 - **AWS Cognito**: 
