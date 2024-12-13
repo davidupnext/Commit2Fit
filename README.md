@@ -1,4 +1,3 @@
-# Commit2Fit
 
 # Fitness Tracking App
 
