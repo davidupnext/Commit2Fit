@@ -59,7 +59,7 @@ This app leverages AWS services to ensure scalability, security, and efficient d
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/davidupnext/FitnessTrackingApp.git
     ```
 
 2. Install dependencies:
